@@ -1,0 +1,75 @@
+name: app_excle
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.0.1
+  flutter_svg: ^1.1.6
+  shared_preferences: ^2.0.15
+  lottie: ^2.3.2
+  flutter_animate:
+  shimmer: ^2.0.0
+  fluttertoast: ^8.1.2
+  dartz:
+  accordion: ^2.5.1
+  awesome_snackbar_content: 
+  progress_state_button: ^1.0.4
+  dropdown_button2:
+  open_file: ^3.3.0
+  path_provider: ^2.0.14
+  syncfusion_flutter_xlsio: ^21.1.41
+  firebase_core: ^2.9.0
+  cloud_firestore: ^4.5.1
+  quickalert: ^1.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/lottie/
+    - assets/svg/
+
+  fonts:
+    - family: ios
+      fonts:
+        - asset: assets/fonts/ios_custom.ttf
+
+    - family: me_bold
+      fonts:
+        - asset: assets/fonts/me_bold.ttf
+
+    - family: me_light
+      fonts:
+        - asset: assets/fonts/me_light.ttf
+
+    - family: me_medium
+      fonts:
+        - asset: assets/fonts/me_medium.ttf
+
+    - family: me_regular
+      fonts:
+        - asset: assets/fonts/me_regular.ttf 
+         
+    - family: me_thin
+      fonts:
+        - asset: assets/fonts/me_thin.ttf  
+
+  uses-material-design: true
+
